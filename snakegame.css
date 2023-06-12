@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#gameboard{
+    height : 520px;
+    width: 1170px;
+    background-image: url('./assets/bg.jpg');
+    background-position: center;
+    margin: 0 auto;
+}
+
+.scoreboard{
+    width: auto;
+    height: 120px;
+    background-image: url('./assets/trophy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
