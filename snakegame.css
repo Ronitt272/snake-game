@@ -1,21 +1,38 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+     #ground {
+        background-image: url("assets/bg.jpg");
+        border: 20px solid green;
+        margin: 0 auto;
+        display: block;
+      }
+  #scoreBoard {
+        text-align: center;
+        background: green;
+        width: 1210px;
+        margin: 0 auto;
+        height: 100px;
+      }
+#score {
+        margin: 0 auto;
+        position: absolute;
+        top: 20px;
+        left: 49.4%;
+        font-size: 1.3rem;
+        color: blue;
+      }
+
+#canvascontainer{
+    width: 100%;
 }
 
-#gameboard{
-    height : 520px;
-    width: 1170px;
-    background-image: url('./assets/bg.jpg');
-    background-position: center;
-    margin: 0 auto;
-}
-
-.scoreboard{
-    width: auto;
-    height: 120px;
-    background-image: url('./assets/trophy.png');
-    background-position: center;
-    background-repeat: no-repeat;
+#ground{
+    width: 100%;
+    height:85vh;
 }
